@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Carta — Cevichería El Muelle</title>
+<meta name="description" content="Carta completa de Cevichería El Muelle: entradas, ceviches, piqueos, arroces y bebidas, con precios.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%90%9F%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container">
+    <a href="index.html" class="brand">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="12" cy="5" r="2.1"/><line x1="12" y1="7.1" x2="12" y2="19"/>
+        <line x1="8" y1="10" x2="16" y2="10"/><path d="M5 13c0 3.5 2.8 6 7 6s7-2.5 7-6"/>
+      </svg>
+      <span><span class="brand-name">El Muelle</span><span class="brand-sub">CEVICHERÍA · VENTANILLA</span></span>
+    </a>
+    <nav class="main-nav" id="main-nav">
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="carta.html" aria-current="page">Carta</a></li>
+        <li><a href="nosotros.html">Nosotros</a></li>
+        <li><a href="galeria.html">Galería</a></li>
+        <li><a href="reservas.html">Reservas</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+    <div class="header-actions">
+      <a href="reservas.html" class="btn btn-primary">Reservar mesa</a>
+      <button class="nav-toggle" aria-label="Abrir menú" aria-expanded="false"><span></span></button>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <section class="page-hero">
+    <div class="container">
+      <span class="eyebrow">Nuestra carta</span>
+      <h1>Lo que sale de la cocina cada día</h1>
+      <p>Precios en soles. La disponibilidad depende de la pesca del día — si un plato no está, es porque el pescado no llegó como nos gusta.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+
+      <div class="menu-photo-note reveal">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><line x1="12" y1="10.5" x2="12" y2="16"/><circle cx="12" cy="7.6" r=".6" fill="currentColor" stroke="none"/></svg>
+        <p>Las fotos son referenciales y los precios pueden cambiar según la pesca del día.</p>
+      </div>
+
+      <div class="menu-tabs reveal">
+        <button class="menu-tab active" data-target="cat-entradas">Entradas</button>
+        <button class="menu-tab" data-target="cat-ceviches">Ceviches y tiraditos</button>
+        <button class="menu-tab" data-target="cat-piqueos">Piqueos y fritos</button>
+        <button class="menu-tab" data-target="cat-arroces">Arroces y fondos</button>
+        <button class="menu-tab" data-target="cat-bebidas">Bebidas</button>
+      </div>
+
+      <div id="cat-entradas" class="menu-category active">
+        <h2 class="menu-cat-title">Entradas</h2>
+        <div class="menu-list">
+          <div class="menu-row">
+            <span class="name">Causa limeña</span><span class="dots"></span><span class="price">S/ 18</span>
+            <p class="desc">Papa amarilla sazonada con limón y ají, rellena de pollo o atún.</p>
+          </div>
+          <div class="menu-row">
+            <span class="name">Papa a la huancaína</span><span class="dots"></span><span class="price">S/ 16</span>
+            <p class="desc">Papas doradas bañadas en crema de ají amarillo y queso fresco.</p>
+          </div>
+          <div class="menu-row">
+            <span class="name">Choritos a la chalaca</span><span class="dots"></span><span class="price">S/ 22</span>
+            <p class="desc">Choros al vapor con salsa criolla fresca de cebolla, tomate y choclo.</p>
+          </div>
+          <div class="menu-row">
+            <span class="name">Pulpo al olivo</span><span class="dots"></span><span class="price">S/ 28</span>
+            <p class="desc">Pulpo cocido a fuego lento, bañado en crema de aceituna negra.</p>
+          </div>
+        </div>
+      </div>
+
+      <div id="cat-ceviches" class="menu-category">
+        <h2 class="menu-cat-title">Ceviches y tiraditos</h2>
+        <div class="menu-list">
+          <div class="menu-row has-photo">
+            <img class="menu-thumb" src="imagenes/ceviche-clasico.webp" alt="Ceviche clásico El Muelle" loading="lazy">
+            <span class="name">Ceviche clásico El Muelle</span><span class="dots"></span><span class="price">S/ 38</span>
+            <p class="desc">Pescado del día en leche de tigre, cebolla morada, camote y choclo.</p>
+          </div>
+          <div class="menu-row">
+            <span class="name">Ceviche mixto</span><span class="dots"></span><span class="price">S/ 42</span>
+            <p class="desc">Pescado, pulpo, langostinos y conchas en leche de tigre de la casa.</p>
+          </div>
+          <div class="menu-row has-photo">
+            <img class="menu-thumb" src="imagenes/tiradito-crema-aji.webp" alt="Tiradito a la crema de ají" loading="lazy">
+            <span class="name">Tiradito a la crema de ají</span><span class="dots"></span><span class="price">S/ 36</span>
+            <p class="desc">Láminas finas de pescado, crema de ají amarillo y cancha serrana.</p>
+          </div>
+          <div class="menu-row">
+            <span class="name">Ceviche de conchas negras</span><span class="dots"></span><span class="price">S/ 46</span>
+            <p class="desc">De temporada, sujeto a disponibilidad del proveedor.</p>
+          </div>
+          <div class="menu-row">
+            <span class="name">Leche de tigre en vaso</span><span class="dots"></span><span class="price">S/ 20</span>
+            <p class="desc">Para acompañar o para levantar el día siguiente, con su choclo y cancha.</p>
+          </div>
+        </div>
+      </div>
+
+      <div id="cat-piqueos" class="menu-category">
+        <h2 class="menu-cat-title">Piqueos y fritos</h2>
+        <div class="menu-list">
+          <div class="menu-row has-photo">
+            <img class="menu-thumb" src="imagenes/chicharron-pescado.webp" alt="Chicharrón de pescado" loading="lazy">
+            <span class="name">Chicharrón de pescado</span><span class="dots"></span><span class="price">S/ 32</span>
+            <p class="desc">Crocante por fuera, jugoso por dentro, con salsa criolla.</p>
+          </div>
+          <div class="menu-row">
+            <span class="name">Chicharrón mixto</span><span class="dots"></span><span class="price">S/ 44</span>
+            <p class="desc">Pescado, calamar y langostinos apanados, para compartir.</p>
+          </div>
+          <div class="menu-row has-photo">
+            <img class="menu-thumb" src="imagenes/jalea-familiar.webp" alt="Jalea familiar" loading="lazy">
+            <span class="name">Jalea familiar</span><span class="dots"></span><span class="price">S/ 68</span>
+            <p class="desc">Mariscos y pescado frito, yuca y salsa criolla — para dos o tres personas.</p>
+          </div>
+          <div class="menu-row has-photo">
+            <img class="menu-thumb" src="imagenes/anticucho.webp" alt="Anticuchos de pulpo" loading="lazy">
+            <span class="name">Anticuchos de pulpo</span><span class="dots"></span><span class="price">S/ 34</span>
+            <p class="desc">A la parrilla, con anticuchera de la casa y papa dorada.</p>
+          </div>
+        </div>
+      </div>
+
+      <div id="cat-arroces" class="menu-category">
+        <h2 class="menu-cat-title">Arroces y fondos</h2>
+        <div class="menu-list">
+          <div class="menu-row has-photo">
+            <img class="menu-thumb" src="imagenes/arroz-mariscos.webp" alt="Arroz con mariscos" loading="lazy">
+            <span class="name">Arroz con mariscos</span><span class="dots"></span><span class="price">S/ 42</span>
+            <p class="desc">Arroz al wok con pulpo, calamar, conchas y langostinos.</p>
+          </div>
+          <div class="menu-row">
+            <span class="name">Parihuela</span><span class="dots"></span><span class="price">S/ 36</span>
+            <p class="desc">Sopa marinera picante con variedad de pescado y mariscos.</p>
+          </div>
+          <div class="menu-row">
+            <span class="name">Chupe de camarones</span><span class="dots"></span><span class="price">S/ 40</span>
+            <p class="desc">Caldo cremoso con camarones, huevo, leche y un toque de ají panca.</p>
+          </div>
+          <div class="menu-row">
+            <span class="name">Sudado de pescado</span><span class="dots"></span><span class="price">S/ 38</span>
+            <p class="desc">Pescado del día cocido en su jugo con tomate, cebolla y cilantro.</p>
+          </div>
+        </div>
+      </div>
+
+      <div id="cat-bebidas" class="menu-category">
+        <h2 class="menu-cat-title">Bebidas</h2>
+        <div class="menu-list">
+          <div class="menu-row has-photo">
+            <img class="menu-thumb" src="imagenes/chicha-morada.webp" alt="Chicha morada" loading="lazy">
+            <span class="name">Chicha morada</span><span class="dots"></span><span class="price">S/ 10</span>
+            <p class="desc">Preparada en casa, con piña y membrillo.</p>
+          </div>
+          <div class="menu-row">
+            <span class="name">Limonada frozen</span><span class="dots"></span><span class="price">S/ 12</span>
+          </div>
+          <div class="menu-row">
+            <span class="name">Maracuyá sour sin alcohol</span><span class="dots"></span><span class="price">S/ 14</span>
+          </div>
+          <div class="menu-row">
+            <span class="name">Cerveza artesanal</span><span class="dots"></span><span class="price">S/ 15</span>
+          </div>
+          <div class="menu-row">
+            <span class="name">Pisco sour</span><span class="dots"></span><span class="price">S/ 18</span>
+          </div>
+        </div>
+      </div>
+
+      <p style="margin-top:3rem;"><a href="reservas.html" class="btn btn-primary">Reservar una mesa</a></p>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="brand">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="5" r="2.1"/><line x1="12" y1="7.1" x2="12" y2="19"/><line x1="8" y1="10" x2="16" y2="10"/><path d="M5 13c0 3.5 2.8 6 7 6s7-2.5 7-6"/></svg>
+          <span class="brand-name">El Muelle</span>
+        </a>
+        <p>Cevichería de barrio en Ventanilla: pescado del día, sazón de siempre.</p>
+        <div class="social-row">
+          <a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M15 8h-2a2 2 0 0 0-2 2v10M9 13h6"/></svg></a>
+          <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="16" rx="4"/><circle cx="12" cy="12" r="3.4"/><circle cx="16.6" cy="7.4" r=".6" fill="currentColor" stroke="none"/></svg></a>
+          <a href="#" aria-label="TikTok"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M14 4v10.4a3.3 3.3 0 1 1-3.3-3.3c.3 0 .6 0 .9.1"/><path d="M14 4c.4 2 1.9 3.4 4 3.6"/></svg></a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Explorar</h4>
+        <ul>
+          <li><a href="carta.html">Carta</a></li>
+          <li><a href="nosotros.html">Nosotros</a></li>
+          <li><a href="galeria.html">Galería</a></li>
+          <li><a href="reservas.html">Reservas</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contacto</h4>
+        <ul>
+          <li>Av. Néstor Gambetta, Ventanilla</li>
+          <li>+51 927 219 409</li>
+          <li>holaelmuelleceviche@gmail.com</li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Promos por correo</h4>
+        <p style="font-size:.88rem; color:rgba(255,255,255,.6);">Un aviso ocasional cuando hay pescado especial o descuento de temporada.</p>
+        <form class="newsletter-row" data-newsletter>
+          <input type="email" required placeholder="tu@correo.com" aria-label="Correo electrónico">
+          <button type="submit" class="btn btn-primary">Unirme</button>
+        </form>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Cevichería El Muelle · Ventanilla, Callao</span>
+      <span>Ceviche fresco desde el primer plato</span>
+    </div>
+  </div>
+</footer>
+
+<a class="whatsapp-float" href="https://wa.me/51927219409" target="_blank" rel="noopener" aria-label="Escribir por WhatsApp">
+  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.03 2C6.6 2 2.2 6.4 2.2 11.8c0 1.85.5 3.58 1.4 5.07L2 22l5.3-1.55a9.7 9.7 0 0 0 4.73 1.23h.01c5.42 0 9.83-4.4 9.83-9.8C21.87 6.4 17.46 2 12.03 2Zm5.73 13.86c-.24.68-1.4 1.3-1.93 1.37-.5.07-1.03.28-3.44-.72-2.9-1.2-4.75-4.15-4.9-4.34-.14-.2-1.17-1.56-1.17-2.98 0-1.42.74-2.11 1-2.4.26-.29.57-.36.76-.36.19 0 .38 0 .55.01.18.01.42-.07.65.5.24.58.82 2 .9 2.15.07.15.12.32.02.52-.1.2-.15.32-.3.5-.14.17-.3.38-.43.51-.14.14-.29.3-.13.58.16.29.73 1.2 1.56 1.95 1.08.96 1.98 1.26 2.27 1.4.29.15.46.13.63-.07.17-.2.72-.84.92-1.13.19-.29.38-.24.63-.14.26.09 1.65.78 1.93.92.29.14.48.21.55.33.07.13.07.72-.17 1.4Z"/></svg>
+</a>
+
+<script src="js/main.js"></script>
+</body>
+</html>
